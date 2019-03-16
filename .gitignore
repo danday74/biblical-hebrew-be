@@ -1,0 +1,7 @@
+/.idea/*
+!/.idea/runConfigurations
+
+/coverage/
+/node_modules/
+
+*.log
