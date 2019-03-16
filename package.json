@@ -2,22 +2,23 @@
   "name": "biblical-hebrew-be",
   "version": "1.0.0",
   "description": "**A tool for learning Biblical Hebrew vocabulary**",
+  "author": "danday74",
+  "license": "UNLICENSED",
   "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "ws": "^6.2.0"
   },
   "devDependencies": {
     "eslint": "^5.15.2"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/danday74/biblical-hebrew-be.git"
   },
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/danday74/biblical-hebrew-be/issues"
   },
