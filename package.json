@@ -6,12 +6,13 @@
   "license": "UNLICENSED",
   "main": "index.js",
   "scripts": {
-    "start": "node server",
+    "start": "nodemon server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "express": "^4.16.4",
     "hebrew-words": "^1.0.2",
-    "ws": "^6.2.0"
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^5.15.2"

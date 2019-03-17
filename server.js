@@ -1,10 +1,27 @@
-const WebSocket = require('ws')
+const express = require('express')
+const app = express()
+const http = require('http').Server(app)
+const io = require('socket.io')(http)
+const port = 3000
 
-const wss = new WebSocket.Server({port: 8080})
+app.use('/assets', express.static('assets'))
 
-wss.on('connection', function connection(ws) {
-  ws.on('message', function incoming(message) {
-    console.log('received: %s', message)
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html')
+})
+
+io.on('connection', socket => {
+
+  console.log('user connected')
+
+  socket.on('disconnect', () => {console.log('user disconnected')})
+
+  socket.on('message', ({action, payload}) => {
+    console.log('incoming message', action, payload)
+    io.emit('message', {action: 'message-to-client', payload: 'blue'})
   })
-  ws.send('something')
+})
+
+http.listen(3000, () => {
+  console.log('listening on port', port)
 })
