@@ -1,4 +1,4 @@
-const {uniq} = require('lodash')
+const {keyBy, uniq} = require('lodash')
 const questions = require('./questions.json')
 const hebrewWords = require('hebrew-words')
 
@@ -58,7 +58,7 @@ const getQuestions = () => {
   console.log('Hebrew word success count', hWordSuccessCount)
   console.log('Question count', allQuestions.length)
 
-  return allQuestions
+  return keyBy(allQuestions, 'id')
 }
 
 module.exports = getQuestions

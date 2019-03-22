@@ -5,6 +5,6 @@ const FileSync = require('lowdb/adapters/FileSync')
 const dbFileName = __dirname + '/db.json'
 const adapter = new FileSync(dbFileName)
 const db = low(adapter)
-db.defaults({questions: getQuestions(), users: []}).write()
+db.defaults({questions: getQuestions(), users: {}}).write()
 
 module.exports = db

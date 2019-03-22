@@ -3,6 +3,7 @@ const app = express()
 const http = require('http').Server(app)
 const io = require('socket.io')(http)
 const port = 3000
+const db = require('./db/db')
 
 app.use('/assets', express.static('assets'))
 
@@ -17,8 +18,16 @@ io.on('connection', socket => {
   socket.on('disconnect', () => {console.log('user disconnected')})
 
   socket.on('message', ({action, payload}) => {
+
     console.log('incoming message', action, payload)
-    io.emit('message', {action: 'message-to-client', payload: 'blue'})
+
+    switch (action) {
+      case '[App] Questions Requested': {
+        const questions = db.get('questions').value()
+        io.emit('message', {action, payload: questions})
+        break
+      }
+    }
   })
 })
 
