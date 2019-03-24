@@ -10,6 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4",
     "hebrew-words": "^1.1.0",
     "lodash": "^4.17.11",
