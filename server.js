@@ -18,8 +18,18 @@ app.get('/', (req, res) => {
 })
 
 const actionLookup = {
-  'random': () => Math.floor(Math.random() * 9999) + 1,
-  '[App] Questions Requested': () => db.get('questions').value()
+  'random': {
+    valueFunc: () => Math.floor(Math.random() * 9999) + 1,
+    withId: false
+  },
+  '[App] Questions Requested': {
+    valueFunc: () => db.get('questions').value(),
+    withId: false
+  },
+  '[App] User Requested': {
+    valueFunc: id => db.get('users').find({slug: id}).value(),
+    withId: true
+  }
 }
 
 io.on('connection', socket => {
@@ -35,15 +45,16 @@ io.on('connection', socket => {
     const action = actionLookup[type]
 
     if (action) {
-      io.emit('message', {type, payload: action()})
+      io.emit('message', {type, payload: action.valueFunc(payload)})
     }
   })
 })
 
 forOwn(actionLookup, (value, key) => {
-  const path = utils.getActionHttpPath(key)
+  let path = utils.getActionHttpPath(key)
+  if (value.withId) path += '/:id'
   app.get(path, (req, res) => {
-    const data = value()
+    const data = value.valueFunc(req.params.id)
     res.json(data)
   })
 })
