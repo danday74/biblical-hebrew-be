@@ -1,5 +1,5 @@
 const {keyBy, uniq} = require('lodash')
-const questions = require('./questions.json')
+const questions = require('./questions-1.json')
 const hebrewWords = require('hebrew-words')
 
 const getQuestions = () => {
