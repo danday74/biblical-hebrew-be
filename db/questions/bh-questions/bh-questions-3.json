@@ -6,7 +6,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["lights"],
@@ -24,7 +24,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["men", "people", "husbands"],
@@ -42,7 +42,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["fleshes"],
@@ -60,7 +60,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["nations", "peoples"],
@@ -78,7 +78,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["words", "things", "matters"],
@@ -96,7 +96,7 @@
     "lesson": 3,
     "msfp": ["bs"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": true
   },
   {
     "english": ["ways"],
@@ -114,7 +114,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["days"],
@@ -132,7 +132,7 @@
     "lesson": 3,
     "msfp": ["fs"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["cities", "towns"],
@@ -150,7 +150,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["good", "pleasing"],
@@ -159,7 +159,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "adjective",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["bad", "evil"],
@@ -168,7 +168,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "adjective",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["between"],
@@ -177,7 +177,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "preposition",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["that", "because", "when"],
@@ -186,7 +186,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "conjunction",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["he walked", "he went"],
@@ -195,7 +195,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["he did", "he made"],
@@ -204,6 +204,6 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": null
+    "penultimateStress": false
   }
 ]
