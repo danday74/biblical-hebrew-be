@@ -6,7 +6,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["lights"],
@@ -15,7 +15,7 @@
     "lesson": 3,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["man", "person", "husband"],
@@ -24,7 +24,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["men", "people", "husbands"],
@@ -33,7 +33,7 @@
     "lesson": 3,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["flesh"],
@@ -42,7 +42,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["fleshes"],
@@ -51,7 +51,7 @@
     "lesson": 3,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["nation", "people"],
@@ -60,7 +60,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["nations", "peoples"],
@@ -69,7 +69,7 @@
     "lesson": 3,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["word", "thing", "matter"],
@@ -78,7 +78,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["words", "things", "matters"],
@@ -87,7 +87,7 @@
     "lesson": 3,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["way"],
@@ -96,7 +96,7 @@
     "lesson": 3,
     "msfp": ["bs"],
     "cat": "noun",
-    "penultimateStress": true
+    "penultimateStress": [true]
   },
   {
     "english": ["ways"],
@@ -105,7 +105,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["day"],
@@ -114,7 +114,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["days"],
@@ -123,7 +123,7 @@
     "lesson": 3,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["city", "town"],
@@ -132,7 +132,7 @@
     "lesson": 3,
     "msfp": ["fs"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["cities", "towns"],
@@ -141,7 +141,7 @@
     "lesson": 3,
     "msfp": ["fp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["dust", "dry earth"],
@@ -150,7 +150,7 @@
     "lesson": 3,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["good", "pleasing"],
@@ -159,7 +159,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "adjective",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["bad", "evil"],
@@ -168,7 +168,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "adjective",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["between"],
@@ -177,7 +177,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "preposition",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["that", "because", "when"],
@@ -186,7 +186,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "conjunction",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["he walked", "he went"],
@@ -195,7 +195,7 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["he did", "he made"],
@@ -204,6 +204,6 @@
     "lesson": 3,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": false
+    "penultimateStress": [false]
   }
 ]
