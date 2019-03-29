@@ -2,6 +2,7 @@ const {keyBy, flatten, uniq} = require('lodash')
 const assert = require('assert')
 const bhQuestions1 = require('./bh-questions/bh-questions-1.json')
 const bhQuestions2 = require('./bh-questions/bh-questions-2.json')
+const bhQuestions3 = require('./bh-questions/bh-questions-3.json')
 const hebrewWords = require('hebrew-words')
 
 const getQuestions = () => {
@@ -11,7 +12,7 @@ const getQuestions = () => {
   let hWordSuccessCount = 0
   let type
 
-  const bhQuestions = flatten([bhQuestions1, bhQuestions2])
+  const bhQuestions = flatten([bhQuestions1, bhQuestions2, bhQuestions3])
 
   bhQuestions.forEach(question => {
 
