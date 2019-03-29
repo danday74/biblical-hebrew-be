@@ -80,7 +80,7 @@
     "english": ["hands"],
     "hebrew": ["יָדַיִם", "יָדוֹת"],
     "lesson": 2,
-    "msfp": ["fp"],
+    "msfp": ["dual", "fp"],
     "cat": "noun"
   },
   {

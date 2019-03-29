@@ -1,4 +1,5 @@
 const {keyBy, flatten, uniq} = require('lodash')
+const assert = require('assert')
 const questions1 = require('./questions-1.json')
 const questions2 = require('./questions-2.json')
 const hebrewWords = require('hebrew-words')
@@ -13,6 +14,8 @@ const getQuestions = () => {
   const questions = flatten([questions1, questions2])
 
   questions.forEach(question => {
+
+    assert.strictEqual(question.hebrew.length, question.msfp.length, question.english + ' failed')
 
     // set hWords and eWords
     const hWords = question.hebrew.map(word => {
