@@ -6,7 +6,7 @@
     "lesson": 1,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["brothers"],
@@ -15,7 +15,7 @@
     "lesson": 1,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["mother"],
@@ -24,7 +24,7 @@
     "lesson": 1,
     "msfp": ["fs"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["mountain", "hill"],
@@ -33,7 +33,7 @@
     "lesson": 1,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["mountains", "hills"],
@@ -42,7 +42,7 @@
     "lesson": 1,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["bread", "food"],
@@ -51,7 +51,7 @@
     "lesson": 1,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": true
+    "penultimateStress": [true]
   },
   {
     "english": ["stream", "river"],
@@ -60,7 +60,7 @@
     "lesson": 1,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["streams", "rivers"],
@@ -69,7 +69,7 @@
     "lesson": 1,
     "msfp": [null, null],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["young man", "lad"],
@@ -78,7 +78,7 @@
     "lesson": 1,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": true
+    "penultimateStress": [true]
   },
   {
     "english": ["young men", "lads"],
@@ -87,7 +87,7 @@
     "lesson": 1,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["lamp"],
@@ -96,7 +96,7 @@
     "lesson": 1,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["lamps"],
@@ -105,7 +105,7 @@
     "lesson": 1,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["people", "nation"],
@@ -114,7 +114,7 @@
     "lesson": 1,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["peoples", "nations"],
@@ -123,7 +123,7 @@
     "lesson": 1,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": [null]
   },
   {
     "english": ["Aram", "Syria"],
@@ -132,7 +132,7 @@
     "lesson": 1,
     "msfp": [null],
     "cat": "proper noun",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["to", "towards"],
@@ -141,7 +141,7 @@
     "lesson": 1,
     "msfp": [null],
     "cat": "preposition",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["from"],
@@ -150,7 +150,7 @@
     "lesson": 1,
     "msfp": [null],
     "cat": "preposition",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["upon"],
@@ -159,7 +159,7 @@
     "lesson": 1,
     "msfp": [null],
     "cat": "preposition",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["no", "not"],
@@ -168,7 +168,7 @@
     "lesson": 1,
     "msfp": [null],
     "cat": "negative particle",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["he said"],
@@ -177,7 +177,7 @@
     "lesson": 1,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": false
+    "penultimateStress": [false]
   },
   {
     "english": ["he saw"],
@@ -186,6 +186,6 @@
     "lesson": 1,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": false
+    "penultimateStress": [false]
   }
 ]
