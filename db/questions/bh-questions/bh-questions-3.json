@@ -1,9 +1,186 @@
 [
   {
-    "english": [""],
-    "hebrew": [""],
+    "english": ["light"],
+    "notes": null,
+    "hebrew": ["אוֹר"],
     "lesson": 3,
-    "msfp": [""],
-    "cat": ""
+    "msfp": ["ms"],
+    "cat": "noun"
+  },
+  {
+    "english": ["lights"],
+    "notes": null,
+    "hebrew": ["אוֹרִים"],
+    "lesson": 3,
+    "msfp": ["mp"],
+    "cat": "noun"
+  },
+  {
+    "english": ["man", "person", "husband"],
+    "notes": null,
+    "hebrew": ["אִישׁ"],
+    "lesson": 3,
+    "msfp": ["ms"],
+    "cat": "noun"
+  },
+  {
+    "english": ["men", "people", "husbands"],
+    "notes": null,
+    "hebrew": ["אֲנָשִׁים"],
+    "lesson": 3,
+    "msfp": ["mp"],
+    "cat": "noun"
+  },
+  {
+    "english": ["flesh"],
+    "notes": null,
+    "hebrew": ["בָּשָׂר"],
+    "lesson": 3,
+    "msfp": ["ms"],
+    "cat": "noun"
+  },
+  {
+    "english": ["fleshes"],
+    "notes": null,
+    "hebrew": ["בְּשָׂרִים"],
+    "lesson": 3,
+    "msfp": ["mp"],
+    "cat": "noun"
+  },
+  {
+    "english": ["nation", "people"],
+    "notes": null,
+    "hebrew": ["גּוֹי"],
+    "lesson": 3,
+    "msfp": ["ms"],
+    "cat": "noun"
+  },
+  {
+    "english": ["nations", "peoples"],
+    "notes": null,
+    "hebrew": ["גּוֹיִם"],
+    "lesson": 3,
+    "msfp": ["mp"],
+    "cat": "noun"
+  },
+  {
+    "english": ["word", "thing", "matter"],
+    "notes": null,
+    "hebrew": ["דָּבָר"],
+    "lesson": 3,
+    "msfp": ["ms"],
+    "cat": "noun"
+  },
+  {
+    "english": ["words", "things", "matters"],
+    "notes": null,
+    "hebrew": ["דְּבָרִים"],
+    "lesson": 3,
+    "msfp": ["mp"],
+    "cat": "noun"
+  },
+  {
+    "english": ["way"],
+    "notes": "road, manner",
+    "hebrew": ["דֶּרֶךְ"],
+    "lesson": 3,
+    "msfp": ["bs"],
+    "cat": "noun"
+  },
+  {
+    "english": ["ways"],
+    "notes": "roads, manners",
+    "hebrew": ["דְּרָכִים"],
+    "lesson": 3,
+    "msfp": [null],
+    "cat": "noun"
+  },
+  {
+    "english": ["day"],
+    "notes": null,
+    "hebrew": ["יוֹם"],
+    "lesson": 3,
+    "msfp": ["ms"],
+    "cat": "noun"
+  },
+  {
+    "english": ["days"],
+    "notes": null,
+    "hebrew": ["יָמִים"],
+    "lesson": 3,
+    "msfp": ["mp"],
+    "cat": "noun"
+  },
+  {
+    "english": ["city", "town"],
+    "notes": null,
+    "hebrew": ["עִיר"],
+    "lesson": 3,
+    "msfp": ["fs"],
+    "cat": "noun"
+  },
+  {
+    "english": ["cities", "towns"],
+    "notes": null,
+    "hebrew": ["עָרִים"],
+    "lesson": 3,
+    "msfp": ["fp"],
+    "cat": "noun"
+  },
+  {
+    "english": ["dust", "dry earth"],
+    "notes": null,
+    "hebrew": ["עָפָר"],
+    "lesson": 3,
+    "msfp": ["ms"],
+    "cat": "noun"
+  },
+  {
+    "english": ["good", "pleasing"],
+    "notes": null,
+    "hebrew": ["טוֹב"],
+    "lesson": 3,
+    "msfp": [null],
+    "cat": "adjective"
+  },
+  {
+    "english": ["bad", "evil"],
+    "notes": null,
+    "hebrew": ["רַע"],
+    "lesson": 3,
+    "msfp": [null],
+    "cat": "adjective"
+  },
+  {
+    "english": ["between"],
+    "notes": null,
+    "hebrew": ["בֵּין"],
+    "lesson": 3,
+    "msfp": [null],
+    "cat": "preposition"
+  },
+  {
+    "english": ["that", "because", "when"],
+    "notes": null,
+    "hebrew": ["כִּי"],
+    "lesson": 3,
+    "msfp": [null],
+    "cat": "conjunction"
+  },
+  {
+    "english": ["he walked", "he went"],
+    "notes": null,
+    "hebrew": ["הָלַךְ"],
+    "lesson": 3,
+    "msfp": [null],
+    "cat": "verb"
+  },
+  {
+    "english": ["he did", "he made"],
+    "notes": null,
+    "hebrew": ["עָשָׂה"],
+    "lesson": 3,
+    "msfp": [null],
+    "cat": "verb"
   }
 ]
