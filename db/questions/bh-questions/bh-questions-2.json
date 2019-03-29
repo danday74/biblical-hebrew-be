@@ -6,7 +6,7 @@
     "lesson": 2,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["fathers"],
@@ -24,7 +24,7 @@
     "lesson": 2,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["earth", "land"],
@@ -33,7 +33,7 @@
     "lesson": 2,
     "msfp": ["fs"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": true
   },
   {
     "english": ["earths", "lands"],
@@ -51,7 +51,7 @@
     "lesson": 2,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": true
   },
   {
     "english": ["son"],
@@ -60,7 +60,7 @@
     "lesson": 2,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["sons"],
@@ -78,7 +78,7 @@
     "lesson": 2,
     "msfp": ["fs"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["daughters"],
@@ -96,7 +96,7 @@
     "lesson": 2,
     "msfp": ["fs"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["hands"],
@@ -114,7 +114,7 @@
     "lesson": 2,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": true
   },
   {
     "english": ["children"],
@@ -132,7 +132,7 @@
     "lesson": 2,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["seas"],
@@ -150,7 +150,7 @@
     "lesson": 2,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": true
   },
   {
     "english": ["kings"],
@@ -168,7 +168,7 @@
     "lesson": 2,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["trees", "woods"],
@@ -186,7 +186,7 @@
     "lesson": 2,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["names"],
@@ -204,7 +204,7 @@
     "lesson": 2,
     "msfp": [null],
     "cat": "number",
-    "penultimateStress": null
+    "penultimateStress": true
   },
   {
     "english": ["he created"],
@@ -213,7 +213,7 @@
     "lesson": 2,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": null
+    "penultimateStress": false
   },
   {
     "english": ["he called"],
@@ -222,6 +222,6 @@
     "lesson": 2,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": null
+    "penultimateStress": false
   }
 ]
