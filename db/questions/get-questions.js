@@ -18,6 +18,13 @@ const getQuestions = () => {
 
     assert.strictEqual(question.hebrew.length, question.msfp.length, question.english + ' failed')
 
+    question.msfp.forEach(msfp => {
+      if (!['ms', 'fs', 'mp', 'fp', null].includes(msfp)) console.warn(`WARNING: Unusual msfp "${msfp}" in question`, question.english)
+    })
+
+    if (!['noun', 'preposition', 'verb', 'adjective', 'proper noun', 'negative particle', 'number', 'conjunction'].includes(question.cat))
+      console.warn(`WARNING: Unusual category "${question.cat}" in question`, question.english)
+
     // set hWords and eWords
     const hWords = question.hebrew.map(word => {
       const hWord = hebrewWords(word)
