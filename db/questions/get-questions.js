@@ -22,7 +22,7 @@ const getQuestions = () => {
     assert(typeof question.lesson === 'number') // lesson
     assert(Array.isArray(question.msfp) && question.msfp.length === question.hebrew.length) // msfp
     assert(typeof question.cat === 'string') // cat
-    assert(typeof question.penultimateStress === 'boolean' || question.penultimateStress === null) // penultimateStress
+    assert(Array.isArray(question.penultimateStress) && question.penultimateStress.length === question.hebrew.length) // penultimateStress
 
     question.msfp.forEach(msfp => {
       if (!['ms', 'fs', 'mp', 'fp', null].includes(msfp)) console.warn(`WARNING: Unusual msfp "${msfp}" in question`, question.english)
