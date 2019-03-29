@@ -1,6 +1,7 @@
 [
   {
     "english": ["brother"],
+    "notes": null,
     "hebrew": ["אָח"],
     "lesson": 1,
     "msfp": ["ms"],
@@ -8,6 +9,7 @@
   },
   {
     "english": ["brothers"],
+    "notes": null,
     "hebrew": ["אַחִים"],
     "lesson": 1,
     "msfp": ["mp"],
@@ -15,6 +17,7 @@
   },
   {
     "english": ["mother"],
+    "notes": null,
     "hebrew": ["אֵם"],
     "lesson": 1,
     "msfp": ["fs"],
@@ -22,6 +25,7 @@
   },
   {
     "english": ["mountain", "hill"],
+    "notes": null,
     "hebrew": ["הַר"],
     "lesson": 1,
     "msfp": ["ms"],
@@ -29,6 +33,7 @@
   },
   {
     "english": ["mountains", "hills"],
+    "notes": null,
     "hebrew": ["הָרִים"],
     "lesson": 1,
     "msfp": ["mp"],
@@ -36,6 +41,7 @@
   },
   {
     "english": ["bread", "food"],
+    "notes": null,
     "hebrew": ["לֶחֶם"],
     "lesson": 1,
     "msfp": ["ms"],
@@ -43,6 +49,7 @@
   },
   {
     "english": ["stream", "river"],
+    "notes": null,
     "hebrew": ["נָהָר"],
     "lesson": 1,
     "msfp": ["ms"],
@@ -50,6 +57,7 @@
   },
   {
     "english": ["streams", "rivers"],
+    "notes": null,
     "hebrew": ["נְהָרִים", "נְהָרוֹת"],
     "lesson": 1,
     "msfp": [null, null],
@@ -57,6 +65,7 @@
   },
   {
     "english": ["young man", "lad"],
+    "notes": null,
     "hebrew": ["נַעַר"],
     "lesson": 1,
     "msfp": ["ms"],
@@ -64,6 +73,7 @@
   },
   {
     "english": ["young men", "lads"],
+    "notes": null,
     "hebrew": ["נְעָרִים"],
     "lesson": 1,
     "msfp": ["mp"],
@@ -71,6 +81,7 @@
   },
   {
     "english": ["lamp"],
+    "notes": null,
     "hebrew": ["נֵר"],
     "lesson": 1,
     "msfp": ["ms"],
@@ -78,6 +89,7 @@
   },
   {
     "english": ["lamps"],
+    "notes": null,
     "hebrew": ["נֵרוֹת"],
     "lesson": 1,
     "msfp": ["mp"],
@@ -85,6 +97,7 @@
   },
   {
     "english": ["people", "nation"],
+    "notes": null,
     "hebrew": ["עַם"],
     "lesson": 1,
     "msfp": ["ms"],
@@ -92,6 +105,7 @@
   },
   {
     "english": ["peoples", "nations"],
+    "notes": null,
     "hebrew": ["עַמִּים"],
     "lesson": 1,
     "msfp": ["mp"],
@@ -99,6 +113,7 @@
   },
   {
     "english": ["Aram", "Syria"],
+    "notes": null,
     "hebrew": ["אֲרָם"],
     "lesson": 1,
     "msfp": [null],
@@ -106,6 +121,7 @@
   },
   {
     "english": ["to", "towards"],
+    "notes": null,
     "hebrew": ["אֶל"],
     "lesson": 1,
     "msfp": [null],
@@ -113,6 +129,7 @@
   },
   {
     "english": ["from"],
+    "notes": null,
     "hebrew": ["מִן"],
     "lesson": 1,
     "msfp": [null],
@@ -120,6 +137,7 @@
   },
   {
     "english": ["upon"],
+    "notes": null,
     "hebrew": ["עַל"],
     "lesson": 1,
     "msfp": [null],
@@ -127,6 +145,7 @@
   },
   {
     "english": ["no", "not"],
+    "notes": null,
     "hebrew": ["לֹא"],
     "lesson": 1,
     "msfp": [null],
@@ -134,6 +153,7 @@
   },
   {
     "english": ["he said"],
+    "notes": null,
     "hebrew": ["אָמַר"],
     "lesson": 1,
     "msfp": [null],
@@ -141,6 +161,7 @@
   },
   {
     "english": ["he saw"],
+    "notes": null,
     "hebrew": ["רָאָה"],
     "lesson": 1,
     "msfp": [null],
