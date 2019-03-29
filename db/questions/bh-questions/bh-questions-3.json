@@ -5,7 +5,8 @@
     "hebrew": ["אוֹר"],
     "lesson": 3,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["lights"],
@@ -13,7 +14,8 @@
     "hebrew": ["אוֹרִים"],
     "lesson": 3,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["man", "person", "husband"],
@@ -21,7 +23,8 @@
     "hebrew": ["אִישׁ"],
     "lesson": 3,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["men", "people", "husbands"],
@@ -29,7 +32,8 @@
     "hebrew": ["אֲנָשִׁים"],
     "lesson": 3,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["flesh"],
@@ -37,7 +41,8 @@
     "hebrew": ["בָּשָׂר"],
     "lesson": 3,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["fleshes"],
@@ -45,7 +50,8 @@
     "hebrew": ["בְּשָׂרִים"],
     "lesson": 3,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["nation", "people"],
@@ -53,7 +59,8 @@
     "hebrew": ["גּוֹי"],
     "lesson": 3,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["nations", "peoples"],
@@ -61,7 +68,8 @@
     "hebrew": ["גּוֹיִם"],
     "lesson": 3,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["word", "thing", "matter"],
@@ -69,7 +77,8 @@
     "hebrew": ["דָּבָר"],
     "lesson": 3,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["words", "things", "matters"],
@@ -77,7 +86,8 @@
     "hebrew": ["דְּבָרִים"],
     "lesson": 3,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["way"],
@@ -85,7 +95,8 @@
     "hebrew": ["דֶּרֶךְ"],
     "lesson": 3,
     "msfp": ["bs"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["ways"],
@@ -93,7 +104,8 @@
     "hebrew": ["דְּרָכִים"],
     "lesson": 3,
     "msfp": [null],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["day"],
@@ -101,7 +113,8 @@
     "hebrew": ["יוֹם"],
     "lesson": 3,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["days"],
@@ -109,7 +122,8 @@
     "hebrew": ["יָמִים"],
     "lesson": 3,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["city", "town"],
@@ -117,7 +131,8 @@
     "hebrew": ["עִיר"],
     "lesson": 3,
     "msfp": ["fs"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["cities", "towns"],
@@ -125,7 +140,8 @@
     "hebrew": ["עָרִים"],
     "lesson": 3,
     "msfp": ["fp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["dust", "dry earth"],
@@ -133,7 +149,8 @@
     "hebrew": ["עָפָר"],
     "lesson": 3,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["good", "pleasing"],
@@ -141,7 +158,8 @@
     "hebrew": ["טוֹב"],
     "lesson": 3,
     "msfp": [null],
-    "cat": "adjective"
+    "cat": "adjective",
+    "penultimateStress": null
   },
   {
     "english": ["bad", "evil"],
@@ -149,7 +167,8 @@
     "hebrew": ["רַע"],
     "lesson": 3,
     "msfp": [null],
-    "cat": "adjective"
+    "cat": "adjective",
+    "penultimateStress": null
   },
   {
     "english": ["between"],
@@ -157,7 +176,8 @@
     "hebrew": ["בֵּין"],
     "lesson": 3,
     "msfp": [null],
-    "cat": "preposition"
+    "cat": "preposition",
+    "penultimateStress": null
   },
   {
     "english": ["that", "because", "when"],
@@ -165,7 +185,8 @@
     "hebrew": ["כִּי"],
     "lesson": 3,
     "msfp": [null],
-    "cat": "conjunction"
+    "cat": "conjunction",
+    "penultimateStress": null
   },
   {
     "english": ["he walked", "he went"],
@@ -173,7 +194,8 @@
     "hebrew": ["הָלַךְ"],
     "lesson": 3,
     "msfp": [null],
-    "cat": "verb"
+    "cat": "verb",
+    "penultimateStress": null
   },
   {
     "english": ["he did", "he made"],
@@ -181,6 +203,7 @@
     "hebrew": ["עָשָׂה"],
     "lesson": 3,
     "msfp": [null],
-    "cat": "verb"
+    "cat": "verb",
+    "penultimateStress": null
   }
 ]

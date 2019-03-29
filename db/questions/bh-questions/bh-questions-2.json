@@ -5,7 +5,8 @@
     "hebrew": ["אָב"],
     "lesson": 2,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["fathers"],
@@ -13,7 +14,8 @@
     "hebrew": ["אָבוֹת"],
     "lesson": 2,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["man", "humankind"],
@@ -21,7 +23,8 @@
     "hebrew": ["אָדָם"],
     "lesson": 2,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["earth", "land"],
@@ -29,7 +32,8 @@
     "hebrew": ["אֶרֶץ"],
     "lesson": 2,
     "msfp": ["fs"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["earths", "lands"],
@@ -37,7 +41,8 @@
     "hebrew": ["אֲרָצוֹת"],
     "lesson": 2,
     "msfp": ["fp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["garment", "clothing"],
@@ -45,7 +50,8 @@
     "hebrew": ["בֶּגֶד"],
     "lesson": 2,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["son"],
@@ -53,7 +59,8 @@
     "hebrew": ["בֵּן"],
     "lesson": 2,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["sons"],
@@ -61,7 +68,8 @@
     "hebrew": ["בָּנִים"],
     "lesson": 2,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["daughter"],
@@ -69,7 +77,8 @@
     "hebrew": ["בַּת"],
     "lesson": 2,
     "msfp": ["fs"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["daughters"],
@@ -77,7 +86,8 @@
     "hebrew": ["בָּנוֹת"],
     "lesson": 2,
     "msfp": ["fp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["hand"],
@@ -85,7 +95,8 @@
     "hebrew": ["יָד"],
     "lesson": 2,
     "msfp": ["fs"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["hands"],
@@ -93,7 +104,8 @@
     "hebrew": ["יָדַיִם", "יָדוֹת"],
     "lesson": 2,
     "msfp": ["dual", "fp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["child"],
@@ -101,7 +113,8 @@
     "hebrew": ["יֶלֶד"],
     "lesson": 2,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["children"],
@@ -109,7 +122,8 @@
     "hebrew": ["יְלָדִים"],
     "lesson": 2,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["sea"],
@@ -117,7 +131,8 @@
     "hebrew": ["יָם"],
     "lesson": 2,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["seas"],
@@ -125,7 +140,8 @@
     "hebrew": ["יַמִּים"],
     "lesson": 2,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["king"],
@@ -133,7 +149,8 @@
     "hebrew": ["מֶלֶךְ"],
     "lesson": 2,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["kings"],
@@ -141,7 +158,8 @@
     "hebrew": ["מְלָכִים"],
     "lesson": 2,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["tree", "wood"],
@@ -149,7 +167,8 @@
     "hebrew": ["עֵץ"],
     "lesson": 2,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["trees", "woods"],
@@ -157,7 +176,8 @@
     "hebrew": ["עֵצִים"],
     "lesson": 2,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["name"],
@@ -165,7 +185,8 @@
     "hebrew": ["שֵׁם"],
     "lesson": 2,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["names"],
@@ -173,7 +194,8 @@
     "hebrew": ["שֵׁמוֹת"],
     "lesson": 2,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["ten"],
@@ -181,7 +203,8 @@
     "hebrew": ["עֶשֶׂר"],
     "lesson": 2,
     "msfp": [null],
-    "cat": "number"
+    "cat": "number",
+    "penultimateStress": null
   },
   {
     "english": ["he created"],
@@ -189,7 +212,8 @@
     "hebrew": ["בָּרָא"],
     "lesson": 2,
     "msfp": [null],
-    "cat": "verb"
+    "cat": "verb",
+    "penultimateStress": null
   },
   {
     "english": ["he called"],
@@ -197,6 +221,7 @@
     "hebrew": ["קָרָא"],
     "lesson": 2,
     "msfp": [null],
-    "cat": "verb"
+    "cat": "verb",
+    "penultimateStress": null
   }
 ]

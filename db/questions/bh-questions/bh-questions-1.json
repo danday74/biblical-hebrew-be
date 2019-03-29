@@ -5,7 +5,8 @@
     "hebrew": ["אָח"],
     "lesson": 1,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["brothers"],
@@ -13,7 +14,8 @@
     "hebrew": ["אַחִים"],
     "lesson": 1,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["mother"],
@@ -21,7 +23,8 @@
     "hebrew": ["אֵם"],
     "lesson": 1,
     "msfp": ["fs"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["mountain", "hill"],
@@ -29,7 +32,8 @@
     "hebrew": ["הַר"],
     "lesson": 1,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["mountains", "hills"],
@@ -37,7 +41,8 @@
     "hebrew": ["הָרִים"],
     "lesson": 1,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["bread", "food"],
@@ -45,7 +50,8 @@
     "hebrew": ["לֶחֶם"],
     "lesson": 1,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["stream", "river"],
@@ -53,7 +59,8 @@
     "hebrew": ["נָהָר"],
     "lesson": 1,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["streams", "rivers"],
@@ -61,7 +68,8 @@
     "hebrew": ["נְהָרִים", "נְהָרוֹת"],
     "lesson": 1,
     "msfp": [null, null],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["young man", "lad"],
@@ -69,7 +77,8 @@
     "hebrew": ["נַעַר"],
     "lesson": 1,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["young men", "lads"],
@@ -77,7 +86,8 @@
     "hebrew": ["נְעָרִים"],
     "lesson": 1,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["lamp"],
@@ -85,7 +95,8 @@
     "hebrew": ["נֵר"],
     "lesson": 1,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["lamps"],
@@ -93,7 +104,8 @@
     "hebrew": ["נֵרוֹת"],
     "lesson": 1,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["people", "nation"],
@@ -101,7 +113,8 @@
     "hebrew": ["עַם"],
     "lesson": 1,
     "msfp": ["ms"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["peoples", "nations"],
@@ -109,7 +122,8 @@
     "hebrew": ["עַמִּים"],
     "lesson": 1,
     "msfp": ["mp"],
-    "cat": "noun"
+    "cat": "noun",
+    "penultimateStress": null
   },
   {
     "english": ["Aram", "Syria"],
@@ -117,7 +131,8 @@
     "hebrew": ["אֲרָם"],
     "lesson": 1,
     "msfp": [null],
-    "cat": "proper noun"
+    "cat": "proper noun",
+    "penultimateStress": null
   },
   {
     "english": ["to", "towards"],
@@ -125,7 +140,8 @@
     "hebrew": ["אֶל"],
     "lesson": 1,
     "msfp": [null],
-    "cat": "preposition"
+    "cat": "preposition",
+    "penultimateStress": null
   },
   {
     "english": ["from"],
@@ -133,7 +149,8 @@
     "hebrew": ["מִן"],
     "lesson": 1,
     "msfp": [null],
-    "cat": "preposition"
+    "cat": "preposition",
+    "penultimateStress": null
   },
   {
     "english": ["upon"],
@@ -141,7 +158,8 @@
     "hebrew": ["עַל"],
     "lesson": 1,
     "msfp": [null],
-    "cat": "preposition"
+    "cat": "preposition",
+    "penultimateStress": null
   },
   {
     "english": ["no", "not"],
@@ -149,7 +167,8 @@
     "hebrew": ["לֹא"],
     "lesson": 1,
     "msfp": [null],
-    "cat": "negative particle"
+    "cat": "negative particle",
+    "penultimateStress": null
   },
   {
     "english": ["he said"],
@@ -157,7 +176,8 @@
     "hebrew": ["אָמַר"],
     "lesson": 1,
     "msfp": [null],
-    "cat": "verb"
+    "cat": "verb",
+    "penultimateStress": null
   },
   {
     "english": ["he saw"],
@@ -165,6 +185,7 @@
     "hebrew": ["רָאָה"],
     "lesson": 1,
     "msfp": [null],
-    "cat": "verb"
+    "cat": "verb",
+    "penultimateStress": null
   }
 ]
