@@ -1,7 +1,7 @@
 const {keyBy, flatten, uniq} = require('lodash')
 const assert = require('assert')
-const questions1 = require('./bh-questions-1.json')
-const questions2 = require('./bh-questions-2.json')
+const bhQuestions1 = require('./bh-questions/bh-questions-1.json')
+const bhQuestions2 = require('./bh-questions/bh-questions-2.json')
 const hebrewWords = require('hebrew-words')
 
 const getQuestions = () => {
@@ -11,9 +11,9 @@ const getQuestions = () => {
   let hWordSuccessCount = 0
   let type
 
-  const questions = flatten([questions1, questions2])
+  const bhQuestions = flatten([bhQuestions1, bhQuestions2])
 
-  questions.forEach(question => {
+  bhQuestions.forEach(question => {
 
     assert.strictEqual(question.hebrew.length, question.msfp.length, question.english + ' failed')
 
