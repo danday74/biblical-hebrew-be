@@ -22,6 +22,8 @@ const getQuestions = () => {
       if (!['ms', 'fs', 'mp', 'fp', null].includes(msfp)) console.warn(`WARNING: Unusual msfp "${msfp}" in question`, question.english)
     })
 
+    if (question.hebrew.length > 1) console.warn(`INFO: ${question.hebrew.length} Hebraic questions found for question`, question.english)
+
     if (!['noun', 'preposition', 'verb', 'adjective', 'proper noun', 'negative particle', 'number', 'conjunction'].includes(question.cat))
       console.warn(`WARNING: Unusual category "${question.cat}" in question`, question.english)
 
