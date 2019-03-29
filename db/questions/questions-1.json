@@ -3,147 +3,147 @@
     "english": ["brother"],
     "hebrew": ["אָח"],
     "lesson": 1,
-    "msfp": "ms",
+    "msfp": ["ms"],
     "cat": "noun"
   },
   {
     "english": ["brothers"],
     "hebrew": ["אַחִים"],
     "lesson": 1,
-    "msfp": "mp",
+    "msfp": ["mp"],
     "cat": "noun"
   },
   {
     "english": ["mother"],
     "hebrew": ["אֵם"],
     "lesson": 1,
-    "msfp": "fs",
+    "msfp": ["fs"],
     "cat": "noun"
   },
   {
     "english": ["mountain", "hill"],
     "hebrew": ["הַר"],
     "lesson": 1,
-    "msfp": "ms",
+    "msfp": ["ms"],
     "cat": "noun"
   },
   {
     "english": ["mountains", "hills"],
     "hebrew": ["הָרִים"],
     "lesson": 1,
-    "msfp": "mp",
+    "msfp": ["mp"],
     "cat": "noun"
   },
   {
     "english": ["bread", "food"],
     "hebrew": ["לֶחֶם"],
     "lesson": 1,
-    "msfp": "ms",
+    "msfp": ["ms"],
     "cat": "noun"
   },
   {
     "english": ["stream", "river"],
     "hebrew": ["נָהָר"],
     "lesson": 1,
-    "msfp": "ms",
+    "msfp": ["ms"],
     "cat": "noun"
   },
   {
     "english": ["streams", "rivers"],
     "hebrew": ["נְהָרִים", "נְהָרוֹת"],
     "lesson": 1,
-    "msfp": null,
+    "msfp": [null, null],
     "cat": "noun"
   },
   {
     "english": ["young man", "lad"],
     "hebrew": ["נַעַר"],
     "lesson": 1,
-    "msfp": "ms",
+    "msfp": ["ms"],
     "cat": "noun"
   },
   {
     "english": ["young men", "lads"],
     "hebrew": ["נְעָרִים"],
     "lesson": 1,
-    "msfp": "mp",
+    "msfp": ["mp"],
     "cat": "noun"
   },
   {
     "english": ["lamp"],
     "hebrew": ["נֵר"],
     "lesson": 1,
-    "msfp": "ms",
+    "msfp": ["ms"],
     "cat": "noun"
   },
   {
     "english": ["lamps"],
     "hebrew": ["נֵרוֹת"],
     "lesson": 1,
-    "msfp": "mp",
+    "msfp": ["mp"],
     "cat": "noun"
   },
   {
     "english": ["people", "nation"],
     "hebrew": ["עַם"],
     "lesson": 1,
-    "msfp": "ms",
+    "msfp": ["ms"],
     "cat": "noun"
   },
   {
     "english": ["peoples", "nations"],
     "hebrew": ["עַמִּים"],
     "lesson": 1,
-    "msfp": "mp",
+    "msfp": ["mp"],
     "cat": "noun"
   },
   {
     "english": ["Aram", "Syria"],
     "hebrew": ["אֲרָם"],
     "lesson": 1,
-    "msfp": null,
+    "msfp": [null],
     "cat": "proper noun"
   },
   {
     "english": ["to", "towards"],
     "hebrew": ["אֶל"],
     "lesson": 1,
-    "msfp": null,
+    "msfp": [null],
     "cat": "preposition"
   },
   {
     "english": ["from"],
     "hebrew": ["מִן"],
     "lesson": 1,
-    "msfp": null,
+    "msfp": [null],
     "cat": "preposition"
   },
   {
     "english": ["upon"],
     "hebrew": ["עַל"],
     "lesson": 1,
-    "msfp": null,
+    "msfp": [null],
     "cat": "preposition"
   },
   {
     "english": ["no", "not"],
     "hebrew": ["לֹא"],
     "lesson": 1,
-    "msfp": null,
+    "msfp": [null],
     "cat": "negative particle"
   },
   {
     "english": ["he said"],
     "hebrew": ["אָמַר"],
     "lesson": 1,
-    "msfp": null,
+    "msfp": [null],
     "cat": "verb"
   },
   {
     "english": ["he saw"],
     "hebrew": ["רָאָה"],
     "lesson": 1,
-    "msfp": null,
+    "msfp": [null],
     "cat": "verb"
   }
 ]

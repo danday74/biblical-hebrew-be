@@ -1,5 +1,6 @@
-const {keyBy, uniq} = require('lodash')
-const questions = require('./questions-1.json')
+const {keyBy, flatten, uniq} = require('lodash')
+const questions1 = require('./questions-1.json')
+const questions2 = require('./questions-2.json')
 const hebrewWords = require('hebrew-words')
 
 const getQuestions = () => {
@@ -8,6 +9,8 @@ const getQuestions = () => {
   let hWordFailureCount = 0
   let hWordSuccessCount = 0
   let type
+
+  const questions = flatten([questions1, questions2])
 
   questions.forEach(question => {
 
