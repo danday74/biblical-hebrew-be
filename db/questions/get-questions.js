@@ -16,16 +16,22 @@ const getQuestions = () => {
 
   bhQuestions.forEach(question => {
 
-    assert.strictEqual(question.hebrew.length, question.msfp.length, question.english + ' failed')
+    assert(Array.isArray(question.english) && question.english.length > 0) // english
+    assert(typeof question.notes === 'string' || question.notes === null) // notes
+    assert(Array.isArray(question.hebrew) && question.hebrew.length > 0) // hebrew
+    assert(typeof question.lesson === 'number') // lesson
+    assert(Array.isArray(question.msfp) && question.msfp.length === question.hebrew.length) // msfp
+    assert(typeof question.cat === 'string') // cat
+    assert(typeof question.penultimateStress === 'boolean' || question.penultimateStress === null) // penultimateStress
 
     question.msfp.forEach(msfp => {
       if (!['ms', 'fs', 'mp', 'fp', null].includes(msfp)) console.warn(`WARNING: Unusual msfp "${msfp}" in question`, question.english)
     })
 
-    if (question.hebrew.length > 1) console.warn(`INFO: ${question.hebrew.length} Hebraic questions found for question`, question.english)
-
     if (!['noun', 'preposition', 'verb', 'adjective', 'proper noun', 'negative particle', 'number', 'conjunction'].includes(question.cat))
       console.warn(`WARNING: Unusual category "${question.cat}" in question`, question.english)
+
+    // if (question.hebrew.length > 1) console.warn(`INFO: ${question.hebrew.length} Hebraic questions found for question`, question.english)
 
     // set hWords and eWords
     const hWords = question.hebrew.map(word => {
