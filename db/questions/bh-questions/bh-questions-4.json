@@ -1,11 +1,155 @@
 [
   {
-    "english": [""],
+    "english": ["morning"],
     "notes": null,
-    "hebrew": [""],
+    "hebrew": ["בֹּקֶר"],
     "lesson": 4,
-    "msfp": [""],
-    "cat": "",
+    "msfp": ["ms"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["mornings"],
+    "notes": null,
+    "hebrew": ["בְּקָרִים"],
+    "lesson": 4,
+    "msfp": ["mp"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["gold"],
+    "notes": null,
+    "hebrew": ["זָהָב"],
+    "lesson": 4,
+    "msfp": ["ms"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["darkness"],
+    "notes": null,
+    "hebrew": ["חֹשֶׁךְ"],
+    "lesson": 4,
+    "msfp": ["ms"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["silver", "money"],
+    "notes": null,
+    "hebrew": ["כֶּסֶף"],
+    "lesson": 4,
+    "msfp": ["ms"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["water", "waters"],
+    "notes": null,
+    "hebrew": ["מַיִם"],
+    "lesson": 4,
+    "msfp": ["mp"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["bone", "self"],
+    "notes": null,
+    "hebrew": ["עֶצֶם"],
+    "lesson": 4,
+    "msfp": ["ms"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["bones", "selves"],
+    "notes": null,
+    "hebrew": ["עֲצָמוֹת"],
+    "lesson": 4,
+    "msfp": ["mp"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["evening"],
+    "notes": null,
+    "hebrew": ["עֶרֶב"],
+    "lesson": 4,
+    "msfp": ["ms"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["image", "likeness"],
+    "notes": null,
+    "hebrew": ["צֶלֶם"],
+    "lesson": 4,
+    "msfp": ["ms"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["heaven", "heavens", "sky"],
+    "notes": null,
+    "hebrew": ["שָׁמַיִם"],
+    "lesson": 4,
+    "msfp": ["mp"],
+    "cat": "noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["David"],
+    "notes": null,
+    "hebrew": ["דָּוִד"],
+    "lesson": 4,
+    "msfp": [null],
+    "cat": "proper noun",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["great"],
+    "notes": "in size or importance",
+    "hebrew": ["גָּדוֹל", "גָּדֹל"],
+    "lesson": 4,
+    "msfp": [null],
+    "cat": "adjective",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["small", "insignificant"],
+    "notes": null,
+    "hebrew": ["קָטֹן", "קָטָן"],
+    "lesson": 4,
+    "msfp": [null],
+    "cat": "adjective",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["one"],
+    "notes": null,
+    "hebrew": ["אֶחָד"],
+    "lesson": 4,
+    "msfp": ["m"],
+    "cat": "number",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["he was", "it was", "it happened"],
+    "notes": null,
+    "hebrew": ["הָיָה"],
+    "lesson": 4,
+    "msfp": [null],
+    "cat": "verb",
+    "penultimateStress": [null]
+  },
+  {
+    "english": ["he took"],
+    "notes": null,
+    "hebrew": ["לָקַח"],
+    "lesson": 4,
+    "msfp": [null],
+    "cat": "verb",
     "penultimateStress": [null]
   }
 ]
