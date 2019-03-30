@@ -6,7 +6,7 @@
     "lesson": 4,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": [null]
+    "penultimateStress": [true]
   },
   {
     "english": ["mornings"],
@@ -24,7 +24,7 @@
     "lesson": 4,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": [null]
+    "penultimateStress": [false]
   },
   {
     "english": ["darkness"],
@@ -33,7 +33,7 @@
     "lesson": 4,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": [null]
+    "penultimateStress": [true]
   },
   {
     "english": ["silver", "money"],
@@ -42,7 +42,7 @@
     "lesson": 4,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": [null]
+    "penultimateStress": [true]
   },
   {
     "english": ["water", "waters"],
@@ -51,7 +51,7 @@
     "lesson": 4,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": [null]
+    "penultimateStress": [true]
   },
   {
     "english": ["bone", "self"],
@@ -60,7 +60,7 @@
     "lesson": 4,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": [null]
+    "penultimateStress": [true]
   },
   {
     "english": ["bones", "selves"],
@@ -78,7 +78,7 @@
     "lesson": 4,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": [null]
+    "penultimateStress": [true]
   },
   {
     "english": ["image", "likeness"],
@@ -87,7 +87,7 @@
     "lesson": 4,
     "msfp": ["ms"],
     "cat": "noun",
-    "penultimateStress": [null]
+    "penultimateStress": [true]
   },
   {
     "english": ["heaven", "heavens", "sky"],
@@ -96,7 +96,7 @@
     "lesson": 4,
     "msfp": ["mp"],
     "cat": "noun",
-    "penultimateStress": [null]
+    "penultimateStress": [true]
   },
   {
     "english": ["David"],
@@ -105,25 +105,25 @@
     "lesson": 4,
     "msfp": [null],
     "cat": "proper noun",
-    "penultimateStress": [null]
+    "penultimateStress": [false]
   },
   {
     "english": ["great"],
     "notes": "in size or importance",
     "hebrew": ["גָּדוֹל", "גָּדֹל"],
     "lesson": 4,
-    "msfp": [null],
+    "msfp": [null, null],
     "cat": "adjective",
-    "penultimateStress": [null]
+    "penultimateStress": [false, false]
   },
   {
     "english": ["small", "insignificant"],
     "notes": null,
     "hebrew": ["קָטֹן", "קָטָן"],
     "lesson": 4,
-    "msfp": [null],
+    "msfp": [null, null],
     "cat": "adjective",
-    "penultimateStress": [null]
+    "penultimateStress": [false, false]
   },
   {
     "english": ["one"],
@@ -132,7 +132,7 @@
     "lesson": 4,
     "msfp": ["m"],
     "cat": "number",
-    "penultimateStress": [null]
+    "penultimateStress": [false]
   },
   {
     "english": ["he was", "it was", "it happened"],
@@ -141,7 +141,7 @@
     "lesson": 4,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": [null]
+    "penultimateStress": [false]
   },
   {
     "english": ["he took"],
@@ -150,6 +150,6 @@
     "lesson": 4,
     "msfp": [null],
     "cat": "verb",
-    "penultimateStress": [null]
+    "penultimateStress": [false]
   }
 ]
