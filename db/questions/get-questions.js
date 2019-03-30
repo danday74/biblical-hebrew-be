@@ -50,7 +50,7 @@ const getQuestions = () => {
     // generate questions
     type = 'english-hebrew'
     const englishHebrew = {
-      id: type + '-' + question.english.join('-').replace(' ', '-'),
+      id: type + '-' + question.english.join('-').replace(/ /g, '-'),
       q: eWords,
       a: hWords,
       lesson: question.lesson,
@@ -62,7 +62,7 @@ const getQuestions = () => {
 
     type = 'hebrew-english'
     const hebrewEnglish = {
-      id: type + '-' + question.english.join('-').replace(' ', '-'),
+      id: type + '-' + question.english.join('-').replace(/ /g, '-'),
       q: hWords,
       a: eWords,
       lesson: question.lesson,
