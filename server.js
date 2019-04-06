@@ -4,9 +4,8 @@ const cors = require('cors')
 const app = express()
 const http = require('http').Server(app)
 const io = require('socket.io')(http)
-const port = 3000
 const db = require('./db/db')
-const {forOwn} = require('lodash')
+const {cloneDeep, forOwn} = require('lodash')
 const config = require('./config')
 const utils = require('./utils/utils')
 
@@ -21,15 +20,23 @@ app.get('/', (req, res) => {
 const actionLookup = {
   'random': {
     valueFunc: () => Math.floor(Math.random() * 9999) + 1,
-    withId: false
+    params: []
   },
   '[Questions] Questions Requested': {
     valueFunc: () => db.get('questions').value(),
-    withId: false
+    params: []
   },
   '[Users] User Requested': {
-    valueFunc: id => db.get('users').find({slug: id}).value(),
-    withId: true
+    valueFunc: params => {
+      const slug = slugify(params.username, {lower: true})
+      let user = db.get('users').find({slug, password: params.password}).value()
+      if (user) {
+        user = cloneDeep(user)
+        delete user.password
+      }
+      return user
+    },
+    params: ['username', 'password']
   }
 }
 
@@ -58,17 +65,20 @@ app.head('/user-exists/:username', (req, res) => {
   res.sendStatus(user ? 200 : 404)
 })
 
-forOwn(actionLookup, (value, key) => {
-  let path = utils.getActionHttpPath(key)
-  if (value.withId) path += '/:id'
+forOwn(actionLookup, (v, k) => {
+  let path = utils.getActionHttpPath(v, k)
   app.get(path, (req, res) => {
-    const data = value.valueFunc(req.params.id)
-    res.json(data)
+    const data = v.valueFunc(req.params)
+    if (data) {
+      res.status(200).json(data)
+    } else {
+      res.status(404).end()
+    }
   })
 })
 
-http.listen(3000, () => {
-  console.log('listening on port', port)
+http.listen(config.port, () => {
+  console.log('listening on port', config.port)
   setInterval(() => {
     console.log('number of clients connected', io.engine.clientsCount)
   }, 10000)
