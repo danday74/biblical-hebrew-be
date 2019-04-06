@@ -23,11 +23,11 @@ const actionLookup = {
     valueFunc: () => Math.floor(Math.random() * 9999) + 1,
     withId: false
   },
-  '[App] Questions Requested': {
+  '[Questions] Questions Requested': {
     valueFunc: () => db.get('questions').value(),
     withId: false
   },
-  '[App] User Requested': {
+  '[Users] User Requested': {
     valueFunc: id => db.get('users').find({slug: id}).value(),
     withId: true
   }
