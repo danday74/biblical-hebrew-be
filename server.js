@@ -1,3 +1,4 @@
+const slugify = require('slugify')
 const express = require('express')
 const cors = require('cors')
 const app = express()
@@ -48,6 +49,13 @@ io.on('connection', socket => {
       io.emit('message', {type, payload: action.valueFunc(payload)})
     }
   })
+})
+
+app.head('/user-exists/:username', (req, res) => {
+  const username = req.params.username
+  const slug = slugify(username, {lower: true})
+  const user = db.get('users').find({slug}).value()
+  res.sendStatus(user ? 200 : 404)
 })
 
 forOwn(actionLookup, (value, key) => {
