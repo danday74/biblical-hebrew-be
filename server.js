@@ -53,7 +53,7 @@ app.head('/user-exists/:username', (req, res) => {
   res.sendStatus(user ? 200 : 404)
 })
 
-app.post('/login', (req, res) => {
+app.post('/validate-user', (req, res) => {
   const username = req.body.username
   const password = req.body.password
   let user = db.get('users').find({username, password}).value()
