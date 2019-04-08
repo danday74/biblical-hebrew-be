@@ -10,7 +10,6 @@
     "ecmaVersion": 6,
     "sourceType": "module"
   },
-  "plugins": [],
   "rules": {
     "arrow-parens": [
       2,
@@ -21,6 +20,12 @@
       "never"
     ],
     "no-console": 0,
+    "prefer-const": [
+      "error", {
+        "destructuring": "any",
+        "ignoreReadBeforeAssign": false
+      }
+    ],
     "quotes": [
       2,
       "single"

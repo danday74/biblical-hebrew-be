@@ -66,7 +66,7 @@ app.head('/user-exists/:username', (req, res) => {
 })
 
 forOwn(actionLookup, (v, k) => {
-  let path = utils.getActionHttpPath(v, k)
+  const path = utils.getActionHttpPath(v, k)
   app.get(path, (req, res) => {
     const data = v.valueFunc(req.params)
     if (data) {
