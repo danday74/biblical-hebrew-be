@@ -8,7 +8,7 @@ const config = {
   defaultUsers: {
     [guestUserSlug]: {
       slug: guestUserSlug,
-      name: guestUserName,
+      username: guestUserName,
       password: 'test'
     }
   },
