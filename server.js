@@ -1,4 +1,4 @@
-const slugify = require('slugify')
+const bodyParser = require('body-parser')
 const express = require('express')
 const cors = require('cors')
 const app = express()
@@ -10,6 +10,7 @@ const config = require('./config')
 const utils = require('./utils/utils')
 
 app.use(cors(config.corsOptions))
+app.use(bodyParser.json())
 
 app.use('/assets', express.static('assets'))
 
@@ -25,18 +26,6 @@ const actionLookup = {
   '[Questions] Questions Requested': {
     valueFunc: () => db.get('questions').value(),
     params: []
-  },
-  '[Users] User Requested': {
-    valueFunc: params => {
-      const slug = slugify(params.username, {lower: true})
-      let user = db.get('users').find({slug, password: params.password}).value()
-      if (user) {
-        user = cloneDeep(user)
-        delete user.password
-      }
-      return user
-    },
-    params: ['username', 'password']
   }
 }
 
@@ -60,9 +49,21 @@ io.on('connection', socket => {
 
 app.head('/user-exists/:username', (req, res) => {
   const username = req.params.username
-  const slug = slugify(username, {lower: true})
-  const user = db.get('users').find({slug}).value()
+  const user = db.get('users').find({username}).value()
   res.sendStatus(user ? 200 : 404)
+})
+
+app.post('/login', (req, res) => {
+  const username = req.body.username
+  const password = req.body.password
+  let user = db.get('users').find({username, password}).value()
+  if (user) {
+    user = cloneDeep(user)
+    delete user.password
+    res.status(200).send(user)
+  } else {
+    res.sendStatus(401)
+  }
 })
 
 forOwn(actionLookup, (v, k) => {
