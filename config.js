@@ -12,7 +12,7 @@ const config = {
       password: 'test'
     }
   },
-  port: 3000
+  port: 4002
 }
 
 module.exports = config
