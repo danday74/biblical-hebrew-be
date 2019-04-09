@@ -1,6 +1,5 @@
 const bodyParser = require('body-parser')
 const express = require('express')
-const cors = require('cors')
 const app = express()
 const http = require('http').Server(app)
 const io = require('socket.io')(http)
@@ -9,7 +8,6 @@ const {cloneDeep, forOwn} = require('lodash')
 const config = require('./config')
 const utils = require('./utils/utils')
 
-app.use(cors(config.corsOptions))
 app.use(bodyParser.json())
 
 app.use('/assets', express.static('assets'))
