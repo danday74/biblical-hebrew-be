@@ -1,10 +1,10 @@
-const {keyBy, flatten, uniq} = require('lodash')
 const assert = require('assert')
 const bhQuestions1 = require('./bh-questions/bh-questions-1.json')
 const bhQuestions2 = require('./bh-questions/bh-questions-2.json')
 const bhQuestions3 = require('./bh-questions/bh-questions-3.json')
 const bhQuestions4 = require('./bh-questions/bh-questions-4.json')
 const hebrewWords = require('hebrew-words')
+const {keyBy, flatten, uniq} = require('lodash')
 
 const getQuestions = () => {
 

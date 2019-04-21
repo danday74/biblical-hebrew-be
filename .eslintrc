@@ -2,10 +2,14 @@
   "env": {
     "browser": false,
     "es6": true,
+    "jasmine": false,
     "mocha": false,
     "node": true
   },
   "extends": "eslint:recommended",
+  "plugins": [
+    "eslint-plugin-sort-requires"
+  ],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
@@ -33,7 +37,8 @@
     "semi": [
       2,
       "never"
-    ]
+    ],
+    "sort-requires/sort-requires": 2
   },
   "globals": {}
 }
