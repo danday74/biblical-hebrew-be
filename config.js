@@ -15,4 +15,4 @@ const config = {
   usernameAndPasswordRegexNoLength: /^[a-zA-Z0-9\u0590-\u05FF]*$/
 }
 
-module.exports = config
+module.exports = config;
