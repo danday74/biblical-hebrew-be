@@ -4,6 +4,7 @@ const router = express.Router()
 const bodyParser = require('body-parser')
 const config = require('./config')
 const globby = require('globby')
+// noinspection JSValidateTypes
 const http = require('http').Server(app)
 const jsonResponse = require('./js/json-response')
 const launchSocketIo = require('./socket-io/launch-socket-io')
