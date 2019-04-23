@@ -7,9 +7,6 @@
     "node": true
   },
   "extends": "eslint:recommended",
-  "plugins": [
-    "eslint-plugin-sort-requires"
-  ],
   "parserOptions": {
     "ecmaVersion": 6,
     "sourceType": "module"
@@ -40,5 +37,8 @@
     ],
     "sort-requires/sort-requires": 2
   },
-  "globals": {}
+  "globals": {},
+  "plugins": [
+    "eslint-plugin-sort-requires"
+  ]
 }
