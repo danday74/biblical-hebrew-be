@@ -1,8 +1,7 @@
-/.idea/*
-!/.idea/runConfigurations
-
 /node_modules/
-
 *.log
+
+/.idea/
+
 
 /db/db.json
