@@ -1,8 +1,8 @@
 const axios = require('axios')
 const config = require('../../config')
 const jsonResponse = require('../../js/json-response')
-const validator = require('./validator')
 const utils = require('../../utils/utils')
+const validator = require('./validator')
 
 const route = router => {
   router.route('/recaptcha/siteverify')
