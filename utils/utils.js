@@ -1,3 +1,7 @@
+const atob = secret => {
+  return Buffer.from(secret, 'base64').toString()
+}
+
 const getActionHttpPath = (value, action) => {
   let httpPath = '/' + action.replace(/\[/g, '').replace(/]/g, '').replace(/ /g, '-').toLowerCase()
   if (value.params.length === 1) {
@@ -9,5 +13,6 @@ const getActionHttpPath = (value, action) => {
 }
 
 module.exports = {
+  atob,
   getActionHttpPath
 }

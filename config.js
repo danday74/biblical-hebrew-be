@@ -9,7 +9,7 @@ const config = {
   },
   port: 4002,
   recaptcha: {
-    secret: '6LeewJ0UAAAAADucLCqS3VsE8LyaH6Wd150O4NNG'
+    secret: 'NkxlZXdKMFVBQUFBQUR1Y0xDcVMzVnNFOEx5YUg2V2QxNTBPNE5ORw=='
   },
   usernameAndPasswordRegex: /^[a-zA-Z0-9\u0590-\u05FF]{3,15}$/,
   usernameAndPasswordRegexNoLength: /^[a-zA-Z0-9\u0590-\u05FF]*$/
