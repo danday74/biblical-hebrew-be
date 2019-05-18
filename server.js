@@ -25,7 +25,7 @@ router.route('/').get((req, res) => {
   return res.sendFile(__dirname + '/index.html')
 })
 
-app.get('*', function (req, res) {
+app.get('*', (req, res) => {
   return jsonResponse(res, 404)
 })
 
